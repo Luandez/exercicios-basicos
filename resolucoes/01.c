@@ -1,5 +1,4 @@
 //Escreva um algoritmo para ler uma temperatura em graus fahrenheit, calcular e escrever o valor correspondente em graus celcius:
-
 #include <stdio.h>
 #include <stdlib.h>
 
