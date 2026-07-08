@@ -2,4 +2,4 @@
 .vscode/
 
 #remover arquivos desnecessarios
-*exe
+*.exe
