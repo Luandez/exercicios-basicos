@@ -6,7 +6,8 @@ int main()
 {
     for (int i = 33; i < 127; i++)
     {
-        printf("%d = %c\n", i, i);
+        printf("DEC = %d - CARAC = %c - HEX = %x\n", i, i, i);
+        printf("\n");
     }
     return 0;
 }
