@@ -8,7 +8,7 @@ int main(void)
    FILE *pont_arq;
    int r;
 
-   pont_arq = fopen("Arquivo1.txt", "w");
+   pont_arq = fopen("Arquivo2.txt", "w");
     if (pont_arq == NULL)
     {
         printf("Erro ao tentar abrir o arquivo.\n");
