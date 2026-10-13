@@ -1,24 +1,27 @@
-//Programa que faz a criptogafria de um valor
+//leia um inteiro de 3 digitos e imprima cada digito separadamente (centena, dezena, unidade)
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 int main(void)
 {
-    int dado_original, dado_criptografado = 0, i = 1, resto;
+    int num, resto = 0, casas[3] = {1, 10, 100};
 
-    printf("Escreva um valor de 5 algarismos: ");
+    printf("Digite um inteiro de 3 algarismos: ");
     fflush(stdout);
-    scanf("%d", &dado_original);
+    scanf("%d", &num);
 
-    while (i < 6)
+    for (int i = 0; i < 3; i++)
     {
-        resto = (dado_original % 10) + 7;
-        printf("Resto = %d\n", resto);
-        dado_criptografado = (dado_criptografado * 10) + resto;
-        dado_original = dado_original / 10;
-        i++;
+        resto = num % 10;
+        casas[i] *= resto;
+        num = num / 10;
     }
 
-    printf("Valor %d\n", dado_criptografado);
+    for (int i = 2; i >= 0; i--)
+    {
+        printf("%d ", casas[i]);
+    }
+
     return 0;
 }
