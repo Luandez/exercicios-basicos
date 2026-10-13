@@ -14,9 +14,10 @@ int main(void)
     {
         resto = num % 10;
         result = (resto + 3) % 10;
-        printf("Resultado = %d\n", result);
+        printf("%d ", result);
         num = num / 10;
     }
 
+    printf("\n");
     return 0;
 }
