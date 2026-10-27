@@ -1,4 +1,11 @@
 //triangulo vazado - apenas as bordas
+/*
+    *
+   * *
+  *   *
+ *     *
+* * * * *
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
