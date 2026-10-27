@@ -1,4 +1,11 @@
 //Imprima a borda de um quadrado, deixando o interior vazio
+/*
+* * * * *
+*       *
+*       *
+*       *
+* * * * *
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
