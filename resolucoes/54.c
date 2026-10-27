@@ -1,4 +1,11 @@
 //Pirâmide invertida
+/*
+ *  *  *  *  *
+  *  *  *  *
+   *  *  *
+    *  *
+     *
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
